@@ -1,0 +1,189 @@
+/* WARNING: css global */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Coda', cursive;
+}
+
+body {
+  background-color: #2471A3;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin: 1%;
+  padding: 1%;
+  background-color:  #0c4971 ;
+  border-radius: 20%;
+  font-size: 150%;
+}
+
+a:hover {
+  background-color: white;
+  color: #db238a;
+}
+
+h1 {
+  margin: 3%;
+  font-size: 250%;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  text-align: center;
+}
+
+p {
+  font-style: italic;
+  color: white;
+  text-align: center;
+  font-size: 150%;
+  margin: 1%;
+}
+
+/* WARNING: css agenda */
+.ajouter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+table {
+  border: 3px solid #6495ed;
+  border-collapse: collapse;
+  width: 90%;
+  margin: auto;
+}
+
+tbody {
+  background-color: #FFFFFF;
+  border: 1px solid #6495ed;
+}
+
+th {
+  font-family: monospace;
+  border: 1px dotted #6495ed;
+  padding: 5px;
+  background-color: #EFF6FF;
+  width: 25%;
+}
+
+td {
+  font-family: sans-serif;
+  font-size: 80%;
+  border: 1px solid #6495ed;
+  padding: 5px;
+  text-align: left;
+  width: 10%;
+}
+
+.jour {
+  font-weight: bold;
+text-align: center;
+font-size: 120%;
+
+}
+
+.work {
+background-color: #E33B3B;
+height: 100px;
+width: 100px;
+}
+
+.sport{
+  background-color: #47DF4E;
+}
+
+.repas{
+  background-color: #EFFF2E;
+}
+
+.dormir{
+  background-color:  #82abf8 ;
+}
+
+.pause{
+  background-color:  #ef56c5 ;
+
+}
+
+.film{
+  background-color:  #fc8e00 ;
+}
+
+.heure1{
+  font-weight: bold;
+  font-size: 120%;
+  color:white;
+
+}
+
+.heure2{
+  font-style: italic;
+  font-size: 110%;
+  color:white;
+
+}
+
+.heure3{
+  color:navy;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* WARNING: css formulaire */
+thead, tfoot {
+  background-color: #D0E3FA;
+  background-image: url(sky.jpg);
+  border: 1px solid #6495ed;
+}
+
+form {
+  background-color: white;
+  width: 50%;
+  margin: 2%;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  width: 150px;
+  float: left;
+}
+
+legend {
+  font-size: 150%;
+  padding: 1%;
+}
+
+input, select {
+  margin-top: 15Px;
+  padding: 1%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2%;
+  padding: 2%;
+  background-color: #77d1e7;
+  border-radius: 10px;
+}
+
+.front {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 2%;
+}
+
+.img1 {
+  width: 10%;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
